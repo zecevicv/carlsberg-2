@@ -65,6 +65,7 @@ body.bg {
   font-weight: 700;
   padding: 0 3.65vw;
   border-radius: 500px;
+  border: none;
 }
 
 .btn-primary {
@@ -121,6 +122,10 @@ body.bg {
 
 .header-logo img {
   width: 19.5vw;
+}
+
+.header-green {
+  background-color: #082a0f;
 }
 
 @media (max-width: 1023.98px) {
@@ -511,5 +516,78 @@ body.bg {
   .after-upload .img-upload ul li {
     flex: 0 0 16.6%;
     padding: 0.73vw;
+  }
+}
+
+/* #Upload
+================================================== */
+.upload {
+  color: #00693a;
+  padding: 2.6vw 0 7.8vw 0;
+}
+
+.upload .container {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload .img {
+  width: 23.4vw;
+  border: 13px solid #eaeaea;
+  margin-bottom: 2vw;
+}
+
+.upload .img img {
+  width: 100%;
+}
+
+.upload form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.upload textarea {
+  width: 100%;
+  margin-bottom: 1.3vw;
+  resize: none;
+  border: none;
+  background-color: #eaeaea;
+  padding: .75vw;
+}
+
+.upload h1 {
+  margin-bottom: 1.5vw;
+  line-height: 1;
+}
+
+@media (max-width: 1023.98px) {
+  .upload {
+    padding: 7.8vw 0 26vw 0;
+  }
+  
+  .upload .container {
+    width: 93%;
+  }
+  
+  .upload .img {
+    width: 100%;
+    margin-bottom: 5.2vw;
+  }
+  
+  .upload textarea {
+    margin-bottom: 5.2vw;
+    padding: 3vw;
+    font-family: inherit;
+  }
+  
+  .upload h1 {
+    margin-bottom: 3vw;
   }
 }
