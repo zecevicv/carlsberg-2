@@ -41,7 +41,9 @@ body {
   color: white;
   min-height: 100vh;
   position: relative;
+}
 
+body.bg {
   background-image: url('../img/global/bg.jpg');
   background-position: top center;
   background-size: cover;
