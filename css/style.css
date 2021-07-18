@@ -993,3 +993,90 @@ body.bg {
     width: 100%;
   }
 }
+
+/* #Code
+================================================== */
+.code {
+  padding: 2vw 0 0 0;
+  position: relative;
+}
+
+.code .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.code form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.2vw;
+}
+
+.code .img img {
+  width: 30.4vw;
+}
+
+.code p {
+  text-decoration: underline;
+}
+
+.code .text {
+  margin-bottom: 3.68vw;
+}
+
+.code input {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 18vw;
+  height: 6.5vw;
+  font-weight: 700;
+  margin-bottom: 1.5vw;
+  letter-spacing: 1vw;
+}
+
+.code .btn {
+  width: 18vw;
+}
+
+.code input,
+.code input::placeholder {
+  color: #00693a;
+}
+
+@media (max-width: 1023.98px) {
+  .code {
+    padding: 15.6vw 0;
+  }
+  
+  .code form {
+    margin-bottom: 14vw;
+    padding: 0 4%;
+  }
+  
+  .code .img img {
+    width: 95%;
+  }
+  
+  .code .text {
+    margin-bottom: 12vw;
+  }
+  
+  .code input {
+    width: 100%;
+    height: 31vw;
+    margin-bottom: 4.15vw;
+    font-size: 33.3vw!important;
+  }
+
+  .code .btn {
+    width: 100%;
+  }
+}
