@@ -73,6 +73,11 @@ body.bg {
   background-color: #00693a;
 }
 
+.btn-secondary {
+  background-color: #a0cf33;
+  color: #00693a;
+}
+
 .link {
   color: #a0cf33;
   border-bottom: 1px solid #a0cf33;
@@ -808,5 +813,97 @@ body.bg {
   
   .how .img {
     width: 100%;
+  }
+}
+
+/* #Form
+================================================== */
+.form-page {
+  padding: 2vw 0 0 0;
+  position: relative;
+}
+
+.form-page::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5vw;
+  background-color: white;
+}
+
+.form-page .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.form-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.2vw;
+}
+
+.form-page .img img {
+  width: 30.4vw;
+}
+
+.form-page p {
+  text-decoration: underline;
+}
+
+.form-page .text {
+  margin-bottom: 3.68vw;
+}
+
+.form-page input {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 18vw;
+  height: 3.65vw;
+  font-weight: 700;
+  padding-right: .5vw;
+  margin-bottom: 1.5vw;
+}
+
+.form-page input,
+.form-page input::placeholder {
+  color: #082a0f;
+}
+
+@media (max-width: 1023.98px) {
+  .form-page {
+    padding: 15.6vw 0 0 0;
+  }
+  
+  .form-page::after {
+    height: 25vw;
+  }
+  
+  .form-page form {
+    margin-bottom: 14vw;
+  }
+  
+  .form-page .img img {
+    width: 95%;
+  }
+  
+  .form-page .text {
+    margin-bottom: 12vw;
+  }
+  
+  .form-page input {
+    width: 100%;
+    height: 14.5vw;
+    padding-right: 1vw;
+    margin-bottom: 4.15vw;
   }
 }
